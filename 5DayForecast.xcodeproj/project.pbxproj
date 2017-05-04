@@ -8,20 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		1B5097F81EB8FFD40017F6EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5097F71EB8FFD40017F6EE /* AppDelegate.swift */; };
-		1B5097FA1EB8FFD40017F6EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5097F91EB8FFD40017F6EE /* ViewController.swift */; };
 		1B5097FD1EB8FFD40017F6EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5097FB1EB8FFD40017F6EE /* Main.storyboard */; };
 		1B5097FF1EB8FFD40017F6EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B5097FE1EB8FFD40017F6EE /* Assets.xcassets */; };
 		1B5098021EB8FFD40017F6EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5098001EB8FFD40017F6EE /* LaunchScreen.storyboard */; };
+		1B50980A1EB9097E0017F6EE /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5098091EB9097E0017F6EE /* Typealiases.swift */; };
+		1B50980D1EB90B6C0017F6EE /* DayForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B50980C1EB90B6C0017F6EE /* DayForecast.swift */; };
+		1B5098111EB919390017F6EE /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5098101EB919390017F6EE /* Forecast.swift */; };
+		1B5098151EB922900017F6EE /* ForecastVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5098141EB922900017F6EE /* ForecastVC.swift */; };
+		1B5098181EB922F70017F6EE /* ForecastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5098171EB922F70017F6EE /* ForecastViewModel.swift */; };
+		1B50981C1EB933290017F6EE /* DetailedDayForecastVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B50981B1EB933290017F6EE /* DetailedDayForecastVC.swift */; };
+		1B50981F1EBA56E60017F6EE /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B50981E1EBA56E60017F6EE /* Globals.swift */; };
+		1B5098221EBA688A0017F6EE /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5098211EBA688A0017F6EE /* Date+Extensions.swift */; };
+		1B5098271EBA84770017F6EE /* DayForecastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5098251EBA84770017F6EE /* DayForecastCell.swift */; };
+		1B5098281EBA84770017F6EE /* DayForecastCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B5098261EBA84770017F6EE /* DayForecastCell.xib */; };
+		1B5098311EBA88080017F6EE /* HourForecastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B50982F1EBA88080017F6EE /* HourForecastCell.swift */; };
+		1B5098321EBA88080017F6EE /* HourForecastCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B5098301EBA88080017F6EE /* HourForecastCell.xib */; };
+		1B5098351EBBA64C0017F6EE /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5098341EBBA64C0017F6EE /* UIImage+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B5097F41EB8FFD40017F6EE /* 5DayForecast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 5DayForecast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B5097F71EB8FFD40017F6EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B5097F91EB8FFD40017F6EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1B5097FC1EB8FFD40017F6EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B5097FE1EB8FFD40017F6EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B5098011EB8FFD40017F6EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B5098031EB8FFD40017F6EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B5098091EB9097E0017F6EE /* Typealiases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealiases.swift; sourceTree = "<group>"; };
+		1B50980C1EB90B6C0017F6EE /* DayForecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayForecast.swift; sourceTree = "<group>"; };
+		1B5098101EB919390017F6EE /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		1B5098141EB922900017F6EE /* ForecastVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastVC.swift; sourceTree = "<group>"; };
+		1B5098171EB922F70017F6EE /* ForecastViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastViewModel.swift; sourceTree = "<group>"; };
+		1B50981B1EB933290017F6EE /* DetailedDayForecastVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedDayForecastVC.swift; sourceTree = "<group>"; };
+		1B50981E1EBA56E60017F6EE /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		1B5098211EBA688A0017F6EE /* Date+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		1B5098251EBA84770017F6EE /* DayForecastCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayForecastCell.swift; sourceTree = "<group>"; };
+		1B5098261EBA84770017F6EE /* DayForecastCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DayForecastCell.xib; sourceTree = "<group>"; };
+		1B50982F1EBA88080017F6EE /* HourForecastCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HourForecastCell.swift; sourceTree = "<group>"; };
+		1B5098301EBA88080017F6EE /* HourForecastCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HourForecastCell.xib; sourceTree = "<group>"; };
+		1B5098341EBBA64C0017F6EE /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +78,114 @@
 		1B5097F61EB8FFD40017F6EE /* 5DayForecast */ = {
 			isa = PBXGroup;
 			children = (
-				1B5097F71EB8FFD40017F6EE /* AppDelegate.swift */,
-				1B5097F91EB8FFD40017F6EE /* ViewController.swift */,
+				1B5098231EBA843B0017F6EE /* Custom Views  */,
+				1B5098201EBA687A0017F6EE /* Extensions */,
+				1B50981D1EBA56D90017F6EE /* Globals */,
+				1B5098161EB922E50017F6EE /* View Models */,
+				1B5098131EB922710017F6EE /* View Controllers */,
+				1B50980B1EB90B490017F6EE /* Models */,
 				1B5097FB1EB8FFD40017F6EE /* Main.storyboard */,
 				1B5097FE1EB8FFD40017F6EE /* Assets.xcassets */,
 				1B5098001EB8FFD40017F6EE /* LaunchScreen.storyboard */,
 				1B5098031EB8FFD40017F6EE /* Info.plist */,
 			);
 			path = 5DayForecast;
+			sourceTree = "<group>";
+		};
+		1B50980B1EB90B490017F6EE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1B5098101EB919390017F6EE /* Forecast.swift */,
+				1B50980C1EB90B6C0017F6EE /* DayForecast.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		1B5098131EB922710017F6EE /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B50981A1EB933060017F6EE /* Day Details */,
+				1B5098191EB932FA0017F6EE /* Forecast */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		1B5098161EB922E50017F6EE /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				1B5098171EB922F70017F6EE /* ForecastViewModel.swift */,
+			);
+			name = "View Models";
+			sourceTree = "<group>";
+		};
+		1B5098191EB932FA0017F6EE /* Forecast */ = {
+			isa = PBXGroup;
+			children = (
+				1B5098141EB922900017F6EE /* ForecastVC.swift */,
+			);
+			name = Forecast;
+			sourceTree = "<group>";
+		};
+		1B50981A1EB933060017F6EE /* Day Details */ = {
+			isa = PBXGroup;
+			children = (
+				1B50981B1EB933290017F6EE /* DetailedDayForecastVC.swift */,
+			);
+			name = "Day Details";
+			sourceTree = "<group>";
+		};
+		1B50981D1EBA56D90017F6EE /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				1B5097F71EB8FFD40017F6EE /* AppDelegate.swift */,
+				1B5098091EB9097E0017F6EE /* Typealiases.swift */,
+				1B50981E1EBA56E60017F6EE /* Globals.swift */,
+			);
+			name = Globals;
+			sourceTree = "<group>";
+		};
+		1B5098201EBA687A0017F6EE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1B5098211EBA688A0017F6EE /* Date+Extensions.swift */,
+				1B5098341EBBA64C0017F6EE /* UIImage+Extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		1B5098231EBA843B0017F6EE /* Custom Views  */ = {
+			isa = PBXGroup;
+			children = (
+				1B5098241EBA84400017F6EE /* Cells */,
+			);
+			name = "Custom Views ";
+			sourceTree = "<group>";
+		};
+		1B5098241EBA84400017F6EE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1B5098331EBA880D0017F6EE /* Hour Forecast Cell */,
+				1B5098291EBA847A0017F6EE /* Day ForecastCell */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		1B5098291EBA847A0017F6EE /* Day ForecastCell */ = {
+			isa = PBXGroup;
+			children = (
+				1B5098261EBA84770017F6EE /* DayForecastCell.xib */,
+				1B5098251EBA84770017F6EE /* DayForecastCell.swift */,
+			);
+			name = "Day ForecastCell";
+			sourceTree = "<group>";
+		};
+		1B5098331EBA880D0017F6EE /* Hour Forecast Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1B50982F1EBA88080017F6EE /* HourForecastCell.swift */,
+				1B5098301EBA88080017F6EE /* HourForecastCell.xib */,
+			);
+			name = "Hour Forecast Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +249,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B5098021EB8FFD40017F6EE /* LaunchScreen.storyboard in Resources */,
+				1B5098281EBA84770017F6EE /* DayForecastCell.xib in Resources */,
 				1B5097FF1EB8FFD40017F6EE /* Assets.xcassets in Resources */,
 				1B5097FD1EB8FFD40017F6EE /* Main.storyboard in Resources */,
+				1B5098321EBA88080017F6EE /* HourForecastCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +263,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B5097FA1EB8FFD40017F6EE /* ViewController.swift in Sources */,
+				1B5098271EBA84770017F6EE /* DayForecastCell.swift in Sources */,
+				1B50981C1EB933290017F6EE /* DetailedDayForecastVC.swift in Sources */,
+				1B5098151EB922900017F6EE /* ForecastVC.swift in Sources */,
+				1B50980D1EB90B6C0017F6EE /* DayForecast.swift in Sources */,
+				1B5098221EBA688A0017F6EE /* Date+Extensions.swift in Sources */,
 				1B5097F81EB8FFD40017F6EE /* AppDelegate.swift in Sources */,
+				1B5098311EBA88080017F6EE /* HourForecastCell.swift in Sources */,
+				1B5098181EB922F70017F6EE /* ForecastViewModel.swift in Sources */,
+				1B50980A1EB9097E0017F6EE /* Typealiases.swift in Sources */,
+				1B5098111EB919390017F6EE /* Forecast.swift in Sources */,
+				1B5098351EBBA64C0017F6EE /* UIImage+Extensions.swift in Sources */,
+				1B50981F1EBA56E60017F6EE /* Globals.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
