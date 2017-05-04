@@ -84,7 +84,7 @@ extension ForecastVC {
         alertController.addAction(action)
         self.present(alertController, animated: true, completion: {
         
-            self.errorButton = UIButton(frame: CGRect(x: 0, y: 64, width: self.view.frame.width, height: 50))
+            self.errorButton = self.errorButton == nil ? UIButton(frame: CGRect(x: 0, y: 64, width: self.view.frame.width, height: 50)) : self.errorButton
             self.errorButton?.backgroundColor = UIColor.red
             self.errorButton?.addTarget(self, action: #selector(self.getData), for: .touchUpInside)
             self.errorButton?.setTitle("Tap Here To Retry", for: .normal)

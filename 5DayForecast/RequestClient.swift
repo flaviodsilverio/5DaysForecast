@@ -49,6 +49,8 @@ class RequestClient {
                 }
                 
                 }.resume()
+        
+        session.finishTasksAndInvalidate()
     }
 
 }
