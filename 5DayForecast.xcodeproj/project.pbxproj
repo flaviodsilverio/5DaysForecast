@@ -24,6 +24,7 @@
 		1B5098311EBA88080017F6EE /* HourForecastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B50982F1EBA88080017F6EE /* HourForecastCell.swift */; };
 		1B5098321EBA88080017F6EE /* HourForecastCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B5098301EBA88080017F6EE /* HourForecastCell.xib */; };
 		1B5098351EBBA64C0017F6EE /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5098341EBBA64C0017F6EE /* UIImage+Extensions.swift */; };
+		1B5098381EBBE4AB0017F6EE /* RequestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5098371EBBE4AB0017F6EE /* RequestClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		1B50982F1EBA88080017F6EE /* HourForecastCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HourForecastCell.swift; sourceTree = "<group>"; };
 		1B5098301EBA88080017F6EE /* HourForecastCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HourForecastCell.xib; sourceTree = "<group>"; };
 		1B5098341EBBA64C0017F6EE /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		1B5098371EBBE4AB0017F6EE /* RequestClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		1B5097F61EB8FFD40017F6EE /* 5DayForecast */ = {
 			isa = PBXGroup;
 			children = (
+				1B5098361EBBE4960017F6EE /* Networking */,
 				1B5098231EBA843B0017F6EE /* Custom Views  */,
 				1B5098201EBA687A0017F6EE /* Extensions */,
 				1B50981D1EBA56D90017F6EE /* Globals */,
@@ -188,6 +191,14 @@
 			name = "Hour Forecast Cell";
 			sourceTree = "<group>";
 		};
+		1B5098361EBBE4960017F6EE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1B5098371EBBE4AB0017F6EE /* RequestClient.swift */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -220,7 +231,7 @@
 				TargetAttributes = {
 					1B5097F31EB8FFD40017F6EE = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = NXBHE32CVP;
+						DevelopmentTeam = DRC2HPV8MW;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -275,6 +286,7 @@
 				1B5098111EB919390017F6EE /* Forecast.swift in Sources */,
 				1B5098351EBBA64C0017F6EE /* UIImage+Extensions.swift in Sources */,
 				1B50981F1EBA56E60017F6EE /* Globals.swift in Sources */,
+				1B5098381EBBE4AB0017F6EE /* RequestClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,7 +411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NXBHE32CVP;
+				DEVELOPMENT_TEAM = DRC2HPV8MW;
 				INFOPLIST_FILE = 5DayForecast/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "silverio.flavio.forecast.-DayForecast";
@@ -412,7 +424,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NXBHE32CVP;
+				DEVELOPMENT_TEAM = DRC2HPV8MW;
 				INFOPLIST_FILE = 5DayForecast/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "silverio.flavio.forecast.-DayForecast";
