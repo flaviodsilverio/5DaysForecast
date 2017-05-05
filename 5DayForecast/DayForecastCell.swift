@@ -14,7 +14,10 @@ final class DayForecastCell: UITableViewCell {
     @IBOutlet private weak var minTempLabel: UILabel!
     @IBOutlet private weak var maxTempLabel: UILabel!
     
+    @IBOutlet var tipLabel: UILabel!
+    
     @IBOutlet weak var dayTypeImageView: UIImageView!
+    
     var day : DayForecast? {
         
         didSet {
@@ -28,6 +31,17 @@ final class DayForecastCell: UITableViewCell {
             minTempLabel.text = String(describing: Int(minTemp))
             maxTempLabel.text = String(describing: Int(maxTemp))
             dayTypeImageView.image = UIImage.image(forWeatherType: dayType)
+            
+            switch dayType {
+            case "Rain":
+                tipLabel.text = "Tip: Don't forget an umbrella!"
+                break
+            case "Clouds":
+                tipLabel.text = "Tip: Don't forget a coat!"
+                break
+            default:
+                tipLabel.text = "Tip: Don't forget your sunglasses!"
+            }
             
         }
         

@@ -21,6 +21,9 @@ class ForecastVC: UIViewController, ForecastViewModelDelegate {
         let nib = UINib(nibName: "DayForecastCell", bundle: nil)
         tableView.register(nib, forCellReuseIdentifier: "cell")
         
+        tableView.estimatedRowHeight = 80
+        tableView.rowHeight = UITableViewAutomaticDimension
+        
         viewModel.delegate = self
         getData()
     }
